@@ -188,5 +188,6 @@ void procesarMensaje(String paquete) {
   display.print(rssi);
   display.println(" dBm");
 
-  display.display(); 
+  display.display();
+  delay(100);
 }
